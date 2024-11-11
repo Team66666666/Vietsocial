@@ -1,9 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-"# Vietsocial" 
+11/11/2024 Update 1: 
+      +  Các trang được đặt tại /src/pages
+      +  Các component đặt tại /src/components
+      +  Route được đặt tại App.jsx dùng để chuyển hướng đến các trang, nếu có thêm trang mới thì nhớ khai báo ở App.jsx mới sử dụng đc nhé
+      +  ProtectedRoute là các trang chỉ đăng nhập thành công mới vào được, ngăn không cho người dùng chưa đăng nhập truy cập vào
